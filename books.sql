@@ -1,0 +1,72 @@
+/*
+this is the only chnage to the original sqlite database
+*/
+
+CREATE TABLE "books" ( "book_id" INTEGER NOT NULL UNIQUE, "book_name" INTEGER, PRIMARY KEY("book_id") )
+
+INSERT INTO books (book_id, book_name) VALUES(0, "Genesis");
+INSERT INTO books (book_id, book_name) VALUES(1, "Exodus");
+INSERT INTO books (book_id, book_name) VALUES(2, "Leviticus");
+INSERT INTO books (book_id, book_name) VALUES(3, "Numbers");
+INSERT INTO books (book_id, book_name) VALUES(4, "Deuteronomy");
+INSERT INTO books (book_id, book_name) VALUES(5, "Joshua");
+INSERT INTO books (book_id, book_name) VALUES(6, "Judges");
+INSERT INTO books (book_id, book_name) VALUES(7, "Ruth");
+INSERT INTO books (book_id, book_name) VALUES(8, "1 Samuel");
+INSERT INTO books (book_id, book_name) VALUES(9, "2 Samuel");
+INSERT INTO books (book_id, book_name) VALUES(10, "1 Kings");
+INSERT INTO books (book_id, book_name) VALUES(11, "2 Kings");
+INSERT INTO books (book_id, book_name) VALUES(12, "1 Chronicles");
+INSERT INTO books (book_id, book_name) VALUES(13, "2 Chronicles");
+INSERT INTO books (book_id, book_name) VALUES(14, "Ezra");
+INSERT INTO books (book_id, book_name) VALUES(15, "Nehemiah");
+INSERT INTO books (book_id, book_name) VALUES(16, "Esther");
+INSERT INTO books (book_id, book_name) VALUES(17, "Job");
+INSERT INTO books (book_id, book_name) VALUES(18, "Psalms");
+INSERT INTO books (book_id, book_name) VALUES(19, "Proverbs");
+INSERT INTO books (book_id, book_name) VALUES(20, "Ecclesiastes");
+INSERT INTO books (book_id, book_name) VALUES(21, "Song of Solomon");
+INSERT INTO books (book_id, book_name) VALUES(22, "Isaiah");
+INSERT INTO books (book_id, book_name) VALUES(23, "Jeremiah");
+INSERT INTO books (book_id, book_name) VALUES(24, "Lamentations");
+INSERT INTO books (book_id, book_name) VALUES(25, "Ezekiel");
+INSERT INTO books (book_id, book_name) VALUES(26, "Daniel");
+INSERT INTO books (book_id, book_name) VALUES(27, "Hosea");
+INSERT INTO books (book_id, book_name) VALUES(28, "Joel");
+INSERT INTO books (book_id, book_name) VALUES(29, "Amos");
+INSERT INTO books (book_id, book_name) VALUES(30, "Obadiah");
+INSERT INTO books (book_id, book_name) VALUES(31, "Jonah");
+INSERT INTO books (book_id, book_name) VALUES(32, "Micah");
+INSERT INTO books (book_id, book_name) VALUES(33, "Nahum");
+INSERT INTO books (book_id, book_name) VALUES(34, "Habakkuk");
+INSERT INTO books (book_id, book_name) VALUES(35, "Zephaniah");
+INSERT INTO books (book_id, book_name) VALUES(36, "Haggai");
+INSERT INTO books (book_id, book_name) VALUES(37, "Zechariah");
+INSERT INTO books (book_id, book_name) VALUES(38, "Malachi");
+INSERT INTO books (book_id, book_name) VALUES(39, "Matthew");
+INSERT INTO books (book_id, book_name) VALUES(40, "Mark");
+INSERT INTO books (book_id, book_name) VALUES(41, "Luke");
+INSERT INTO books (book_id, book_name) VALUES(42, "John");
+INSERT INTO books (book_id, book_name) VALUES(43, "Acts");
+INSERT INTO books (book_id, book_name) VALUES(44, "Romans");
+INSERT INTO books (book_id, book_name) VALUES(45, "1 Corinthians");
+INSERT INTO books (book_id, book_name) VALUES(46, "2 Corinthians");
+INSERT INTO books (book_id, book_name) VALUES(47, "Galatians");
+INSERT INTO books (book_id, book_name) VALUES(48, "Ephesians");
+INSERT INTO books (book_id, book_name) VALUES(49, "Philippians");
+INSERT INTO books (book_id, book_name) VALUES(50, "Colossians");
+INSERT INTO books (book_id, book_name) VALUES(51, "1 Thessalonians");
+INSERT INTO books (book_id, book_name) VALUES(52, "2 Thessalonians");
+INSERT INTO books (book_id, book_name) VALUES(53, "1 Timothy");
+INSERT INTO books (book_id, book_name) VALUES(54, "2 Timothy");
+INSERT INTO books (book_id, book_name) VALUES(55, "Titus");
+INSERT INTO books (book_id, book_name) VALUES(56, "Philemon");
+INSERT INTO books (book_id, book_name) VALUES(57, "Hebrews");
+INSERT INTO books (book_id, book_name) VALUES(58, "James");
+INSERT INTO books (book_id, book_name) VALUES(59, "1 Peter");
+INSERT INTO books (book_id, book_name) VALUES(60, "2 Peter");
+INSERT INTO books (book_id, book_name) VALUES(61, "1 John");
+INSERT INTO books (book_id, book_name) VALUES(62, "2 John");
+INSERT INTO books (book_id, book_name) VALUES(63, "3 John");
+INSERT INTO books (book_id, book_name) VALUES(64, "Jude");
+INSERT INTO books (book_id, book_name) VALUES(65, "Revelation");
